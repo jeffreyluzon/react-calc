@@ -55,6 +55,7 @@ function App() {
 
   return (
     <div className="App">
+      <div>poop</div>
       <div className="calculator">
         <div className="display">
           {result ? <span>({result})</span> : ''} 
