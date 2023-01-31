@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 function App() {
+  var poop = 5;
   const [calc, setCalc] = useState("");
   const [result, setResult] = useState("");
   const ops = ['/', '*' , '+', '-', '.'];
